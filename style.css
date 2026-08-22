@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mukta', sans-serif;
+}
+
+button { 
+    background-color: #C51111;
+    color: #ffffff;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.img-luidi-mario {
+    width: 500px;
+}
+
+.div1 {
+   width: 40%;
+}
+
+.div1 img {
+    width: 800px;
+    position: relative;
+    left: -200px;
+    
+}
+
+
+body { 
+    height: 100vh;
+}
+
+.caixa-video {
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+video {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.caixa-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 100px;
+    height: 100vh;
+
+
+    
+
+}
+   
+.mascara-video {
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.1) 50%, rgba(10, 12, 16, 0.1) 85%);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+.cabeçalho { 
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 30px;
+   
+}
+
+.texto {
+    color: #fde303;
+    font-size: 34px;
+    cursor: pointer;
+    text-decoration: none;
+    
+}
+
+
+.logo-header {
+    width: 200px;
+}
+
+.texto:hover {
+    color: #00c7fc;
+    font-size: 30px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.caixa-link-whatsapp {
+    position: fixed;
+    bottom: 15px;
+    right: 40px;
+    cursor: pointer;
+    
+}
+
+form {
+    background-color: #ffffff;
+    position: fixed;
+    top:30%;
+    left: -750px;
+
+    /* 
+    left: 50%;
+    transform: translateX(-50%);  
+    */
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+    border-radius: 3px;
+    width: 450px;
+    height: 400px;
+    z-index: 1;
+    transition: 0.5s left ease-in-out;
+    
+}
+
+.mascara-formulario {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
+    visibility:hidden;
+    transition: 0.5s  ease-in-out;
+}
+
+.icone-whatsapp {
+    width: 100px;
+}
+
+.imgform {
+    position: relative;
+    top: -690px;
+    right: -190px;
+    width: 120%;
+}
+
+.saiba{
+    position: relative;
+    margin-top: -640px;
+}
+
+.formulario h4 { 
+    color: #01159c;
+    font-size: 20px;
+    font-family: Oswald;
+
+}
+
+h4 span {
+    color: #fa6200;
+    font-family: Oswald;
+
+}
+
+.megas100 {
+    color:#01159c;
+}
+
+.megas500 {
+    color: #01159c;
+}
+
+.megas700 {
+    color: #01159c;
+}
+
+.aviso {
+   color: #01159c;
+   font-size: 15px;
+}
+
+.aviso span {
+    color: #c70202;
+}
+
+.megas100 span {
+    color: #fa6200;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+.megas500 span {
+    color: #fa6200;
+    font-size: 30px;
+    font-family: Oswald; 
+}
+
+.megas700 span {
+    color: #fa6200;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+.tg {
+    font-size: 1px;
+    
+}
+
+@media screen and (max-width: 900px) {
+
+    .formulario {
+        width: 300px;
+    }
+
+    .formulario h4 {
+        font-size: 25px;
+        top: 14px;
+    }
+
+    .aviso {
+        font-size: 11px;
+    }
+
+    .saiba {
+        left: 100px;
+        bottom: -130px;
+        width: 150px;
+    }
+
+    .div1{
+        width: 500px;
+    }
+    
+    .div1 img {
+        width: 200px;
+        position: relative;
+        left: -70px;
+    }
+
+   
+
+    .div1 p {
+        font-size: 10px;
+        position: relative;
+        left: -70px;
+        
+    }
+
+    .cabeçalho img {
+        width: 50px;
+    }
+
+    .cabeçalho a {
+        font-size: 20px;
+        
+    }
+
+    .icone-whatsapp {
+        width: 70px;
+        position: relative;
+        left: 40px;
+    }
+
+    .imgform {
+        width: 180%;
+        left: 70px;
+        top: -60px;
+    }
+
+    h4 {
+        position: relative;
+        top: 30px;
+
+    }
+
+    .saiba {
+        position: relative;
+        margin-top: -470px;
+        width: 100px;
+        height: 220px;
+    }
+        
+    .caixa-video {
+        left: -800px;
+    }
+    
+    .caixa-principal button {
+        position: relative;
+        left: -70px;
+    }
+  
+}
