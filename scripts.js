@@ -3,7 +3,7 @@ const mascara = document.querySelector(".mascara-formulario");
 
 
 
-function mostrarform() {
+function fibra() {
     formulario.style.left = "50%";
     formulario.style.transform = "translateX(-50%)";
     mascara.style.visibility = "visible";
