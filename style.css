@@ -104,6 +104,30 @@ p {
 form {
     background-color: #ffffff;
     position: fixed;
+    top:25%;
+    left: -750px;
+
+    /* 
+    left: 50%;
+    transform: translateX(-50%);  
+    */
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+    border-radius: 3px;
+    width: 450px;
+    height: 400px;
+    z-index: 1;
+    transition: 0.5s left ease-in-out;
+}
+
+
+form .formulario {
+    background-color: #ffffff;
+    position: fixed;
     top:30%;
     left: -750px;
 
@@ -125,15 +149,82 @@ form {
     
 }
 
+ form .formfrural {
+    background-color: #ffffff;
+    position: fixed;
+    top:30%;
+    left: -750px;
+
+    /* 
+    left: 50%;
+    transform: translateX(-50%);  
+    */
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+    border-radius: 3px;
+    width: 450px;
+    height: 400px;
+    z-index: 1;
+    transition: 0.5s left ease-in-out;
+    
+}
+
+ form .formrural {
+    background-color: #ffffff;
+    position: fixed;
+    top:30%;
+    left: -750px;
+
+    /* 
+    left: 50%;
+    transform: translateX(-50%);  
+    */
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+    border-radius: 3px;
+    width: 450px;
+    height: 400px;
+    z-index: 1;
+    transition: 0.5s left ease-in-out;
+}
 .mascara-formulario {
-    width: 100px;
-    height: 100px;
+    width: 100vw;
+    height: 100vh;
     position: fixed;
     top: 0;
     background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
     visibility:hidden;
     transition: 0.5s  ease-in-out;
 }
+
+.mascara-formfrural{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
+    visibility:hidden;
+    transition: 0.5s  ease-in-out;
+}
+
+.mascara-formrural{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    background: linear-gradient(109deg,rgba(10, 12, 16, 0.99) 15%,rgba(10, 12, 16, 0.7) 50%,rgba(10, 12, 16, 0.99) 85%);
+    visibility:hidden;
+    transition: 0.5s  ease-in-out;
+}
+
 
 .icone-whatsapp {
     width: 100px;
@@ -149,9 +240,10 @@ form {
 .saiba{
     position: relative;
     margin-top: -550px;
+    background-color: #c70202;
 }
 
-.formulario h4 { 
+    h4 { 
     color: #01159c;
     font-size: 20px;
     font-family: Oswald;
@@ -164,15 +256,15 @@ h4 span {
 
 }
 
-.megas100 {
+.megas {
     color:#01159c;
 }
 
-.megas500 {
+.megas2 {
     color: #01159c;
 }
 
-.megas700 {
+.megas3 {
     color: #01159c;
 }
 
@@ -185,19 +277,19 @@ h4 span {
     color: #c70202;
 }
 
-.megas100 span {
+.megas span {
     color: #fa6200;
     font-size: 30px;
     font-family: Oswald;
 }
 
-.megas500 span {
+.megas2 span {
     color: #fa6200;
     font-size: 30px;
     font-family: Oswald; 
 }
 
-.megas700 span {
+.megas3 span {
     color: #fa6200;
     font-size: 30px;
     font-family: Oswald;
@@ -212,11 +304,11 @@ h4 span {
 }
 
 .frural {
-    background-color: #febc03;
+    background-color: #3f2901;
 }
 
 .rural {
-    background-color: #05bff3;
+    background-color: #000060;
 }
 
 .veloxname {
@@ -226,9 +318,17 @@ h4 span {
 }
 
 
+
 @media screen and (max-width: 900px) {
 
     .formulario {
+        width: 300px;
+    }
+    .formfrural {
+        width: 300px;
+    }
+
+    .formrural {
         width: 300px;
     }
 
@@ -265,7 +365,7 @@ h4 span {
     .div1 p {
         font-size: 9px;
         position: relative;
-        left: -40px;
+        left: -60px;
         
     }
 
@@ -281,7 +381,8 @@ h4 span {
     .icone-whatsapp {
         width: 70px;
         position: relative;
-        left: 20px;
+        left: -10px;
+        top: -60px;
     }
 
     .imgform {
@@ -311,6 +412,10 @@ h4 span {
     .caixa-principal button {
         position: relative;
         left: -70px;
+    }
+
+    .Logo-header {
+        top: 40px;
     }
   
 }
