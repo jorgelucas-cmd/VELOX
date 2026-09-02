@@ -104,8 +104,8 @@ p {
 form {
     background-color: #ffffff;
     position: fixed;
-    top:25%;
-    left: -750px;
+    top: 10px;
+    left: -550px;
 
     /* 
     left: 50%;
@@ -116,85 +116,15 @@ form {
     flex-direction: column;
     gap: 20px;
 
-    padding: 20px;
+   
     border-radius: 3px;
-    width: 450px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
     z-index: 1;
     transition: 0.5s left ease-in-out;
 }
 
 
-form .formulario {
-    background-color: #ffffff;
-    position: fixed;
-    top:30%;
-    left: -750px;
-
-    /* 
-    left: 50%;
-    transform: translateX(-50%);  
-    */
-    
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    padding: 20px;
-    border-radius: 3px;
-    width: 450px;
-    height: 400px;
-    z-index: 1;
-    transition: 0.5s left ease-in-out;
-    
-}
-
- form .formfrural {
-    background-color: #ffffff;
-    position: fixed;
-    top:30%;
-    left: -750px;
-
-    /* 
-    left: 50%;
-    transform: translateX(-50%);  
-    */
-    
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    padding: 20px;
-    border-radius: 3px;
-    width: 450px;
-    height: 400px;
-    z-index: 1;
-    transition: 0.5s left ease-in-out;
-    
-}
-
- form .formrural {
-    background-color: #ffffff;
-    position: fixed;
-    top:30%;
-    left: -750px;
-
-    /* 
-    left: 50%;
-    transform: translateX(-50%);  
-    */
-    
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-    padding: 20px;
-    border-radius: 3px;
-    width: 450px;
-    height: 400px;
-    z-index: 1;
-    transition: 0.5s left ease-in-out;
-}
 .mascara-formulario {
     width: 100vw;
     height: 100vh;
@@ -232,8 +162,8 @@ form .formulario {
 
 .imgform {
     position: relative;
-    top: -520px;
-    right: -250px;
+    top: -540px;
+    right: -300px;
     width: 350px;
 }
 
@@ -241,6 +171,8 @@ form .formulario {
     position: relative;
     margin-top: -550px;
     background-color: #c70202;
+    width: 200px;
+    height: 100px;
 }
 
     h4 { 
@@ -321,20 +253,13 @@ h4 span {
 
 @media screen and (max-width: 900px) {
 
-    .formulario {
+   form {
         width: 300px;
-    }
-    .formfrural {
-        width: 300px;
-    }
-
-    .formrural {
-        width: 300px;
-    }
-
-    .formulario h4 {
-        font-size: 25px;
-        top: 14px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        top: 100px;
     }
 
     .aviso {
@@ -343,8 +268,8 @@ h4 span {
 
     .saiba {
         left: 100px;
-        bottom: -130px;
-        width: 150px;
+        bottom: -150px;
+        width: 200px;
     }
 
     .div1{
@@ -387,8 +312,8 @@ h4 span {
 
     .imgform {
         width: 180px;
-        left: 137px;
-        top: -550px;
+        left: -30px;
+        top: -90px;
     }
 
     h4 {
