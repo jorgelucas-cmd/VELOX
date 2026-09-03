@@ -160,10 +160,24 @@ form {
     width: 100px;
 }
 
-.imgform {
+.sonic1 {
     position: relative;
     top: -540px;
-    right: -300px;
+    right: 300px;
+    width: 350px;
+}
+
+.sonic2 {
+    position: relative;
+    top: -540px;
+    right: 300px;
+    width: 350px;
+}
+
+.sonic3{
+    position: relative;
+    top: -540px;
+    right: 300px;
     width: 350px;
 }
 
@@ -310,7 +324,19 @@ h4 span {
         top: -60px;
     }
 
-    .imgform {
+    .sonic1 {
+        width: 180px;
+        left: -30px;
+        top: -90px;
+    }
+
+     .sonic2 {
+        width: 180px;
+        left: -30px;
+        top: -90px;
+    }
+
+     .sonic3 {
         width: 180px;
         left: -30px;
         top: -90px;
