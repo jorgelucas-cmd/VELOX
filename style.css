@@ -9,14 +9,19 @@ button {
     color: #ffffff;
     width: 200px;
     height: 50px;
-    border-radius: 3px;
     border: none;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
     margin-top: 30px;
+    border-radius: 20px;
 }
 
+button:hover {
+    background-color: #00c6fb;
+    transition: 0.9s ease-in-out;
+    
+}
 
 
 body { 
@@ -160,6 +165,12 @@ form {
     width: 100px;
 }
 
+.icone-whatsapp:hover {
+    width: 200px;
+    opacity: 0.8;
+    transition: 0.9s ease-in-out;
+}
+
 .sonic1 {
     position: relative;
     top: -540px;
@@ -187,6 +198,12 @@ form {
     background-color: #c70202;
     width: 200px;
     height: 100px;
+}
+
+.saiba:hover {
+    background-color: #00c6fb;
+    opacity: 0.9;
+    transition: 0.9s ease-in-out;
 }
 
     h4 { 
